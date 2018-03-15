@@ -1,3 +1,7 @@
+module "vpc" {
+  source = "./vpc"
+}
+
  resource "aws_vpc" "example" {
  cidr_block = "172.168.0.0/28"
  enable_dns_hostnames = true
