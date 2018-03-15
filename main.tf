@@ -1,6 +1,4 @@
-terraform {
-  required_version = ">= 0.10.3" # introduction of Local Values configuration language feature
-}
+
 
  resource "aws_vpc" "example" {
  cidr_block = "172.168.0.0/28"
